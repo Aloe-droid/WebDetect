@@ -2,10 +2,10 @@
 
 -------
 ### WebDetect-ONNX 
-#### OpenCV 와 ONNXRuntime 라이브러리를 이용, Blazor Server 앱입니다.
+#### OpenCV 와 ONNXRuntime 라이브러리를 이용한 Blazor Server 앱입니다.
 -------
 ### WebDetect-TFLite
-#### TFjs 와 TFlite 라이브러리를 이용, Blazor WebAssembly 앱입니다.
+#### TFjs 와 TFlite 라이브러리를 이용한 Blazor WebAssembly 앱입니다.
 -------
 
 각 폴더의 차이는 모델 tflite/onnx 차이이며 내부 로직은 거의 동일합니다. <br/>
