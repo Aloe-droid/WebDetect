@@ -1,0 +1,153 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\obj\\Debug\\net7.0\\build-gz\\NHIyRsSK.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WebDetection.styles.css",
+      "PackagePath": "staticwebassets\\WebDetection.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\blur.js",
+      "PackagePath": "staticwebassets\\js\\blur.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\detect.js",
+      "PackagePath": "staticwebassets\\js\\detect.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\draw.js",
+      "PackagePath": "staticwebassets\\js\\draw.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\get_iou.js",
+      "PackagePath": "staticwebassets\\js\\get_iou.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\inference.js",
+      "PackagePath": "staticwebassets\\js\\inference.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\motion.js",
+      "PackagePath": "staticwebassets\\js\\motion.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\post_object.js",
+      "PackagePath": "staticwebassets\\js\\post_object.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\post_pose.js",
+      "PackagePath": "staticwebassets\\js\\post_pose.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\post_yunet.js",
+      "PackagePath": "staticwebassets\\js\\post_yunet.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\pre.js",
+      "PackagePath": "staticwebassets\\js\\pre.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\js\\video.js",
+      "PackagePath": "staticwebassets\\js\\video.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\model\\coco_224.tflite",
+      "PackagePath": "staticwebassets\\model\\coco_224.tflite"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\model\\face_640.tflite",
+      "PackagePath": "staticwebassets\\model\\face_640.tflite"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\model\\fire_224.tflite",
+      "PackagePath": "staticwebassets\\model\\fire_224.tflite"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\WebDetect-TFLite\\wwwroot\\model\\pose_224.tflite",
+      "PackagePath": "staticwebassets\\model\\pose_224.tflite"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebDetection.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebDetection.props",
+      "PackagePath": "build\\WebDetection.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebDetection.props",
+      "PackagePath": "buildMultiTargeting\\WebDetection.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebDetection.props",
+      "PackagePath": "buildTransitive\\WebDetection.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

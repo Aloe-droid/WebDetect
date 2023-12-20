@@ -1,0 +1,67 @@
+@page "/detect"
+@inject IJSRuntime _jsRuntime
+@implements IAsyncDisposable
+
+<div style="display: flex; align-items: center;">
+	<h6 style="margin-right: 10px;">Select Object for Detection</h6>
+	<select style="width: 200px;" @onchange="OnSelectedItemChanged">
+		@foreach (var item in items)
+		{
+			<option value="@item">@item</option>
+		}
+	</select>
+</div>
+
+<div style="display: flex; align-items: center;">
+	<h6 style="margin-right: 10px;">Confidence Threshold</h6>
+	<input style="width: 200px; height: 1.25em; margin-top: -5px;" type="text" id="conf" value="0.3" />
+	<button style="margin-left: 10px; margin-top: -5px; height: 1.25em;  line-height: 5px;"
+	@onclick="ChangeConfidenceThreshold" id="changeConfidence">change</button>
+</div>
+
+
+<canvas id="canvasOutput"></canvas>
+<video id="video" width="640" height="480"></video>
+
+@code {
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		if (firstRender)
+		{
+			await _jsRuntime.InvokeVoidAsync("start_video", "video");
+			await _jsRuntime.InvokeVoidAsync("detect");
+		}
+	}
+
+	public async ValueTask DisposeAsync()
+	{
+		try
+		{
+			await _jsRuntime.InvokeVoidAsync("stop_video", "video");
+			await _jsRuntime.InvokeVoidAsync("unload");
+
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"{ex.GetType()}: {ex.Message}");
+		}
+	}
+
+	private List<string> items = new List<string> { "none", "coco", "fire", "face", "pose"};
+
+	private string? selectedItem = "none";
+
+
+	// 객체 검출 모델 선택
+	private void OnSelectedItemChanged(ChangeEventArgs e)
+	{
+		selectedItem = e.Value?.ToString();
+		_jsRuntime.InvokeVoidAsync("change_model", selectedItem);
+	}
+
+	// confidence threshold 변경
+	private void ChangeConfidenceThreshold()
+	{
+		_jsRuntime.InvokeVoidAsync("change_confidence_threshold");
+	}
+}
